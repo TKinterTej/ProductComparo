@@ -1,11 +1,3 @@
-#Name:          Tejvir Baidwan
-#Student No:    31400974
-#File Name:     FSEPart3.py
-#Date:          January 23rd, 2019
-#Teacher:       Mr. Sarros
-#Purpose:       This program is a product comparator, and it was created using Python's library 'Tkinter'. The program asks the user for details on any
-#               Product, and the program displays a product breakdown for the user, and allows them so save their results onto their PC for later use.
-
 
 from tkinter import *
 from tkinter import filedialog
