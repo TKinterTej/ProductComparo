@@ -3,6 +3,9 @@ from bs4 import BeautifulSoup
 import tkinter
 from tkinter import*
 
+#PLEASE NOTE THAT MY EBAY KEY DOESNT WORK NOW! SO YOU MUST MAKE AN EBAY DEVELOPERS ACCOUNT FOR A KEY. ITS A QUICK PROCESS
+
+
 def webScrapeEbay():
 
     name         =      []
