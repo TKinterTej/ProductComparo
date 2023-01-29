@@ -52,29 +52,29 @@ def webScrapeEbay():
 
 intro = Tk()
 intro.title("Ebay Web Scrapper")
-intro.configure(background='Yellow')                     #Window 'master' is created
+intro.configure(background='Yellow')                     
 image = PhotoImage(file='giphy.gif')
 picture = Label(intro, image=image).grid(row=10,column=1)
 
 text = Text(intro)
 
-                                                        #Various labels created which indicate the title, intended user input, and instructions.
+                                                        
 Label(intro, text="EbayWebScrappo",bg='Blue',font='Showcard 24 italic underline',relief=SUNKEN).grid(row=0, column=1)
 Label(intro, text="Name",background='purple',font='Times 12 bold underline',relief=RIDGE).grid(row=1)
 Label(intro, text="Product Keywords",background='purple',font='Times 12 bold underline',relief=RIDGE).grid(row=2)
 
 
-                                                        #Entry boxes are created and placed on the window grid.
+                                                        
 e1 = Entry(intro, width=30)
 e2 = Entry(intro, width=30)
 
 
-                                                        #Entry boxed placed on window grid.
+                                                        
 e1.grid(row=1, column=1)
 e2.grid(row=2, column=1)
 
 
-                                                        #Buttons created: 'Quit' destorys window, and 'Sorter' calls in function 'Sorter'
+                                                        
 Button(intro, text='Quit',bg="Red",font="Cooper 12 bold underline italic", command=intro.destroy,relief=RAISED).grid(row=6, column=0, sticky=W, pady=4)
 Button(intro, text='Results',bg="Green",font="Cooper 12 bold underline italic", command=webScrapeEbay,relief=RAISED).grid(row=6, column=2, sticky=W, pady=4)
 
